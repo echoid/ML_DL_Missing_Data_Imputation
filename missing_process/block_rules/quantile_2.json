@@ -1,0 +1,12 @@
+{
+"Q1_Q2_0.5": {"1": {"lower": 0.0, "upper": 0.25, "partial_missing": 0.5},"2": {"lower": 0.25, "upper": 0.5, "partial_missing": 0.5}}, 
+"Q1_Q3_0.5": {"1": {"lower": 0.0, "upper": 0.25, "partial_missing": 0.5}, "2": {"lower": 0.5, "upper": 0.75, "partial_missing": 0.5}}, 
+"Q1_Q4_0.5": {"1": {"lower": 0.0, "upper": 0.25, "partial_missing": 0.5}, "2": {"lower": 0.75, "upper": 1, "partial_missing": 0.5}}, 
+"Q2_Q3_0.5": {"1": {"lower": 0.25, "upper": 0.5, "partial_missing": 0.5}, "2": {"lower": 0.5, "upper": 0.75, "partial_missing": 0.5}}, 
+"Q2_Q4_0.5": {"1": {"lower": 0.25, "upper": 0.5, "partial_missing": 0.5}, "2": {"lower": 0.75, "upper": 1, "partial_missing": 0.5}}, 
+"Q3_Q4_0.5": {"1": {"lower": 0.5, "upper": 0.75, "partial_missing": 0.5}, "2": {"lower": 0.75, "upper": 1, "partial_missing": 0.5}}, 
+"Q1_0.5": {"1": {"lower": 0.0, "upper": 0.25, "partial_missing": 0.5}},  
+"Q2_0.5": {"1": {"lower": 0.25, "upper": 0.5, "partial_missing": 0.5}},  
+"Q3_0.5": {"1": {"lower": 0.5, "upper": 0.75, "partial_missing": 0.5}}, 
+"Q4_0.5": {"1": {"lower": 0.75, "upper": 1, "partial_missing": 0.5}}
+}

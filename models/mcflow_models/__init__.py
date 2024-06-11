@@ -1,0 +1,2 @@
+from mcflow_models.latent_model import LatentToLatentApprox
+from mcflow_models.model import InterpRealNVP
