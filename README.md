@@ -73,7 +73,7 @@ Task indicates the downstream task associated with datasets (C-Classification, R
    --miss_type: Specifies the type of missing data mechanism to apply. 
 
    #### Available Options
-   #### dataname
+   #### modelname
    - `gain` [gain](https://github.com/jsyoon0823/GAIN)
    - `hyper`[HyperImputer](https://github.com/vanderschaarlab/hyperimpute)
    - `knn` [KNN](https://scikit-learn.org/stable/modules/generated/sklearn.impute.KNNImputer.html)
