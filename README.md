@@ -1,6 +1,6 @@
 # Missing Data Imputation: Do Advanced ML/DL Techniques Outperform Traditional Approaches?
 
-This repository contains the code and data for the paper "Missing Data Imputation: Do Advanced ML/DL Techniques Outperform Traditional Approaches?".
+This repository contains the code and data for the paper "Missing Data Imputation: Do Advanced ML/DL Techniques Outperform Traditional Approaches?" by Youran Zhou, Mohamed Reda Bouadjenek, and Sunil Aryal
 
 ## Repository Structure
 
@@ -73,8 +73,22 @@ Task indicates the downstream task associated with datasets (C-Classification, R
    --miss_type: Specifies the type of missing data mechanism to apply. 
 
    #### Available Options
+   #### dataname
+   - `gain` [gain](https://github.com/jsyoon0823/GAIN)
+   - `hyper`[HyperImputer](https://github.com/vanderschaarlab/hyperimpute)
+   - `knn` [KNN](https://scikit-learn.org/stable/modules/generated/sklearn.impute.KNNImputer.html)
+   - `mcflow`[MCFlow](https://github.com/trevor-richardson/MCFlow)
+   - `mean`[Mean](https://scikit-learn.org/stable/modules/generated/sklearn.impute.SimpleImputer.html)
+   - `mf`[MatrixFactorization](https://pypi.org/project/fancyimpute/)
+   - `mice`[MICE](https://scikit-learn.org/stable/modules/generated/sklearn.impute.IterativeImputer.html)
+   - `missforest`[Missforest](https://scikit-learn.org/stable/modules/generated/sklearn.impute.SimpleImputer.html)
+   - `MIWAE`[MIWAE](https://github.com/pamattei/miwae)
+   - `notMIWAE`[not-MIWAE](https://github.com/nbip/notMIWAE)
+   - `ot`[OptimalTransport](https://github.com/BorisMuzellec/MissingDataOT)
+   - `tabcsdi`[TabCSDI](https://github.com/pfnet-research/TabCSDI)
+   - `XGB`[XGB](https://pypi.org/project/xgbimputer/)
 
-   #### Datasets
+   #### dataname
    - `banknote`
    - `concrete_compression`
    - `wine_quality_white`
@@ -86,14 +100,14 @@ Task indicates the downstream task associated with datasets (C-Classification, R
    - `yeast`
    - `yacht_hydrodynamics`
 
-   #### Missing Data Types
+   #### misstype
    - `quantile`
    - `diffuse`
    - `logistic`
    - `mcar`
    - `mar`
 
-   - Example:
+   #### Example
    ```bash
    python hyper_main.py --data_name banknote --miss_type quantile
    ```
